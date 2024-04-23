@@ -1,0 +1,74 @@
+.class public Lio/codevo/isbank/octopus/internal/Ѧ;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field private final А̀:Ljava/lang/String;
+
+.field private final А́:Landroid/content/pm/PackageInfo;
+
+.field private final А̄:Ljava/lang/String;
+
+.field private final Ӑ:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/pm/PackageInfo;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lio/codevo/isbank/octopus/internal/Ѧ;->А́:Landroid/content/pm/PackageInfo;
+
+    .line 3
+    iput-object p2, p0, Lio/codevo/isbank/octopus/internal/Ѧ;->А̀:Ljava/lang/String;
+
+    .line 4
+    iput-object p3, p0, Lio/codevo/isbank/octopus/internal/Ѧ;->Ӑ:Ljava/lang/String;
+
+    .line 5
+    iput-object p4, p0, Lio/codevo/isbank/octopus/internal/Ѧ;->А̄:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public А̀()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lio/codevo/isbank/octopus/internal/Ѧ;->Ӑ:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public А́()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lio/codevo/isbank/octopus/internal/Ѧ;->А̀:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public А̄()Landroid/content/pm/PackageInfo;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lio/codevo/isbank/octopus/internal/Ѧ;->А́:Landroid/content/pm/PackageInfo;
+
+    return-object v0
+.end method
+
+.method public Ӑ()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lio/codevo/isbank/octopus/internal/Ѧ;->А̄:Ljava/lang/String;
+
+    return-object v0
+.end method
